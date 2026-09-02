@@ -6,4 +6,5 @@
 * Lucas Masteguim - 
 
 | Compontente | Onde Aparece | Variações (Modificadores BEM) |
-| :... | :...: | ...: |
+| :-----------| :----------: |-----------------------------: |
+| *button*    | Login, Cadastro, |-----------------------------: |
