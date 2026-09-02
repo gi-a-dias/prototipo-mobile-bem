@@ -7,4 +7,4 @@
 
 | Compontente | Onde Aparece | Variações (Modificadores BEM) |
 | :-----------| :----------: |-----------------------------: |
-| *button*    | Login, Cadastro, |-----------------------------: |
+| *button*    | Login, Cadastro, Newsletter, Criar Post, Fila de Revisão, Categorias | button--primary, button--secundary, button--disabled, button--danger|
