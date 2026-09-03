@@ -1,0 +1,13 @@
+/* Tela da simulação do celular */
+
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color: blueviolet;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+/* Representação das medidas do celular*/
