@@ -11,3 +11,13 @@ body{
 }
 
 /* Representação das medidas do celular*/
+.mobile-device{
+    width: 360px;
+    height: 740px;
+    background-color: #fff;
+    border: 12px solid #1a1a1a;
+    border-radius: 36px;
+    padding: 24px;
+    box-sizing: 
+    display
+}
