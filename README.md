@@ -10,3 +10,4 @@
 | *button*    | Login, Cadastro, Newsletter, Criar Post, Fila de Revisão, Categorias | (não aplicado | button--primary, button--secundary, button--disabled, button--danger|
 | *card*    | Início, Categoria, Destaques, Resultados de Busca, Perfil | card__image, card__title, card__category, card__date| card--large, card--medium, card--compact |
 | *form*    | Início, Cadastro, Criar Post, Categorias (Busca), Perfil | form__group, form__label, form__input, form__button| form__input--error, form__input--focused, form__input--disabled |
+| *navegation*    | Header, Bottom Nav ou Sidebar do Admin | navegation__list, navegation__item, navegation__link, navegation__icon | navegation__item--active, navegation--button, navegation--sidebar |
