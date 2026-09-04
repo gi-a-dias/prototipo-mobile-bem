@@ -3,7 +3,7 @@
 
 ### Integrantes:
 * Giovanna Almeida Dias - 10436553
-* Lucas Masteguim -
+* Lucas Masteguim - 10437300
 
 ### Organização dos arquivos CSS (estruturados utilizando a metodologia do BEM)
 * 'variables.css' : Centraliza os tojens de design (cores, arredondamentos e padrões visuais da tela inicial);
