@@ -47,6 +47,7 @@ Nossa proposta mobile reorganizou os elementos das 14 telas originais para garan
 ## 📂 Organização dos Arquivos
 Seguindo as orientações da disciplina, estruturamos os materiais do projeto em uma pasta limpa e modularizada:
 
+´´´text
 projeto-mobile/
 ├── wireframes/              # Contém as 14 imagens PNG de baixa fidelidade
 ├── css/
@@ -58,6 +59,7 @@ projeto-mobile/
 │   └── device.css           # Simulador utilitário de dispositivo móvel para testes
 ├── html.html                # Arquivo HTML de teste unificado da aplicação
 └── README.md                # Documentação técnica do projeto (esta página)
+´´´
 
   
 | Compontente | Onde Aparece | Elementos |Variações (Modificadores BEM) |
