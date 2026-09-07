@@ -26,4 +26,19 @@
 
     /* Bordas */
     --border-width: 1px;
+    --color-gray-muted: #6B6B6B;
+    --color-gray-light: #EFEFEF;
+    --color-danger: #D32F2F;
+
+    /* Tipografia (Fontes) */
+    --font-xs: 11px;
+    --font-sm: 13px;
+    --font-md: 15px;
+    --font-lg: 18px;
+    --font-xl: 22px;
+
+    /* Arredondamento (Raios de Borda) */
+    --radius-sm: 8px;
+    --radius-md: 16px;
+    --radius-pill: 9999px;
 }
