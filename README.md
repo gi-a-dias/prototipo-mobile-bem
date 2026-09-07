@@ -59,7 +59,7 @@ projeto-mobile/
 │   └── device.css           # Simulador utilitário de dispositivo móvel para testes
 ├── html.html                # Arquivo HTML de teste unificado da aplicação
 └── README.md                # Documentação técnica do projeto (esta página)
-´´´
+---
 
   
 | Compontente | Onde Aparece | Elementos |Variações (Modificadores BEM) |
