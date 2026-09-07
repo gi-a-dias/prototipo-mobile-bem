@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <title> Organização dos Estilos com BEM </title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-    <body>
-    
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Habit</title>
+
+    <link rel="stylesheet" href="projeto-mobile/css/buttons.css">
+    <link rel="stylesheet" href="projeto-mobile/css/card.css">
+    <link rel="stylesheet" href="projeto-mobile/css/chip.css">
+    <link rel="stylesheet" href="projeto-mobile/css/layout.css">
+    <link rel="stylesheet" href="projeto-mobile/css/navigation.css">
+    <link rel="stylesheet" href="projeto-mobile/css/variables.css">
+</head>
+
+<body>
+    <header>
+        <div class="search">
+            <form class="search__form">
+                <input
+                    class="search__input"
+                    type="search"
+                    name="busca"
+                    placeholder="Busca"
+                >
+            </form>
+        </div>
+
+        <nav class="navigation">
+            <a class="botaopadrao" href="#">
+                Início
+            </a>
+            <a class="botaopadrao" href="#">
+                Categorias
+            </a>
+            <a class="botaopadrao" href="#">
+                Entrar
+            </a>
+            <a class="botaopadrao" href="#">
+                Admin
+            </a>
+            <a class="botaocategoria" href="#">
+                Destaques
+            </a>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <article class="card_post"></article>
+            <article class="card_post"></article>
+        </section>
+    </main>
+</body>
 </html>
