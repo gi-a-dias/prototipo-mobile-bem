@@ -1,0 +1,29 @@
+/* explicar para a giovana que aqui são variaveis globais, que podem ser usadas em qualquer lugar do projeto, e que irei implementá-las depois*/
+:root {
+
+    /* Página */
+    --page-width: 430px;
+    --page-height: 932px;
+
+    /* Botões */
+    --button-width: 190px;
+    --button-height: 42px;
+
+    /* Cores */
+    --color-background: #F0F4F3;
+
+    --color-primary: #49C4CC;
+    --color-primary-active: #278F96;
+
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+
+    --color-border: #000000;
+
+    /* Espaçamentos */
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+
+    /* Bordas */
+    --border-width: 1px;
+}
