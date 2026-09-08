@@ -51,6 +51,7 @@ Todos os elementos de estilo foram estruturados utilizando a metodologia do **BE
 | **`form`** | Início, Cadastro, Criar Post, Categorias (Busca), Perfil | `form__group`, `form__label`, `form__input`, `form__button` | `form__input--error`, `form__input--focused`, `form__input--disabled` |
 | **`navigation`** | Header, Bottom Nav ou Sidebar do Admin | `navigation__list`, `navigation__item`, `navigation__link`, `navigation__icon` | `navigation__item--active`, `navigation--button`, `navigation--sidebar` |
 | **`chip`** | Categoria (02), Destaques (03) | — | `chip--selected` |
+| **`device`** | Simula o mobile | `device__screen`, `device__notch` | — |
 
 ---
 
