@@ -50,6 +50,7 @@ Todos os elementos de estilo foram estruturados utilizando a metodologia do **BE
 | **`card`** | Início, Categoria, Destaques, Resultados de Busca, Perfil | `card__image`, `card__title`, `card__category`, `card__date` | `card--large`, `card--medium`, `card--compact` |
 | **`form`** | Início, Cadastro, Criar Post, Categorias (Busca), Perfil | `form__group`, `form__label`, `form__input`, `form__button` | `form__input--error`, `form__input--focused`, `form__input--disabled` |
 | **`navigation`** | Header, Bottom Nav ou Sidebar do Admin | `navigation__list`, `navigation__item`, `navigation__link`, `navigation__icon` | `navigation__item--active`, `navigation--button`, `navigation--sidebar` |
+| **`chip`** | Categoria (02), Destaques (03) | — | `chip--selected` |
 
 ---
 
