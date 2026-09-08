@@ -7,51 +7,71 @@
 
     <title>Habit</title>
 
-    <link rel="stylesheet" href="projeto-mobile/css/buttons.css">
-    <link rel="stylesheet" href="projeto-mobile/css/card.css">
-    <link rel="stylesheet" href="projeto-mobile/css/chip.css">
-    <link rel="stylesheet" href="projeto-mobile/css/layout.css">
-    <link rel="stylesheet" href="projeto-mobile/css/navigation.css">
-    <link rel="stylesheet" href="projeto-mobile/css/variables.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/device.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/card.css">
+    <link rel="stylesheet" href="css/chip.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navigation.css">
 </head>
 
 <body>
-    <header>
-        <div class="search">
-            <form class="search__form">
-                <input
-                    class="search__input"
-                    type="search"
-                    name="busca"
-                    placeholder="Busca"
-                >
-            </form>
+    <div class="device-container">
+        <div class="device">
+            <div class="device__notch"></div>
+            <div class="device__screen">
+                <header class="header">
+                    <a href="#" class="header__logo">Habit</a>
+                    
+                    <div class="header__search">
+                        <form class="form">
+                            <input
+                                class="form__input form__input--search"
+                                type="search"
+                                name="busca"
+                                placeholder="Busca"
+                            >
+                        </form>
+                    </div>
+                </header>
+                <nav class="navigation">
+                    <!-- Trocando "botaopadrao" por "button" -->
+                    <a class="button" href="#">Início</a>
+                    <a class="button" href="#">Categorias</a>
+                    <a class="button" href="#">Entrar</a>
+                    
+                    <!-- modificador: bloco base + modificador -->
+                    <a class="button button--category" href="#">Destaques</a>
+                </nav>
+
+                <main class="page">
+                    <section class="section">
+                        <h2 class="section__title">Publicações Recentes</h2>
+                        
+                        <div class="section__body">
+                            <!-- Trocamos "card_post" por "card" e adicionamos elementos internos -->
+                            <article class="card">
+                                <div class="card__image"></div>
+                                <div class="card__body">
+                                    <h3 class="card__title">Como criar hábitos saudáveis em 2026</h3>
+                                    <span class="card__date">07 de Setembro, 2026</span>
+                                </div>
+                            </article>
+
+                            <article class="card">
+                                <div class="card__image"></div>
+                                <div class="card__body">
+                                    <h3 class="card__title">A consistência vence o talento</h3>
+                                    <span class="card__date">06 de Setembro, 2026</span>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                </main>
+
+            </div>
         </div>
-
-        <nav class="navigation">
-            <a class="botaopadrao" href="#">
-                Início
-            </a>
-            <a class="botaopadrao" href="#">
-                Categorias
-            </a>
-            <a class="botaopadrao" href="#">
-                Entrar
-            </a>
-            <a class="botaopadrao" href="#">
-                Admin
-            </a>
-            <a class="botaocategoria" href="#">
-                Destaques
-            </a>
-        </nav>
-
-    </header>
-    <main>
-        <section>
-            <article class="card_post"></article>
-            <article class="card_post"></article>
-        </section>
-    </main>
+    </div>
 </body>
 </html>

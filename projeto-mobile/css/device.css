@@ -5,19 +5,45 @@ body{
     justify-content:center;
     align-items:center;
     min-height:100vh;
-    background-color: blueviolet;
+    background-color: var(--color-background); 
     margin: 0;
-    font-family:'Times New Roman', Times, serif;
+    font-family: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
 /* Representação das medidas do celular*/
-.mobile-device{
-    width: 360px;
-    height: 740px;
-    background-color: #fff;
-    border: 12px solid #1a1a1a;
-    border-radius: 36px;
-    padding: 24px;
-    box-sizing: 
-    display
+.device{
+    width: var(--page-width);     /* 430px */
+    height: var(--page-height);   /* 932px */
+    background-color: var(--color-white);
+    border: 12px solid var(--color-black);
+    border-radius: 40px; /* Bordas arredondadas do celular */
+    box-shadow: 0 var(--spacing-medium) 30px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.device__screen{ /*tela rolavel para o conteudo*/
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: var(--color-white);
+}
+
+.device__notch { /*realismo oferecido pelo chat, incluir caso dê certo*/
+    width: 120px;
+    height: 30px;
+    background-color: var(--color-black);
+    border-bottom-left-radius: var(--radius-sm);
+    border-bottom-right-radius: var(--radius-sm);
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    pointer-events: none;
 }

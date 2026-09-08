@@ -1,11 +1,49 @@
-* {
-    box-sizing: border-box;
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background); /* Usa o fundo padrão do projeto */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* Fontes modernas */
 }
 
-body {
-    width: 430px;
-    min-height: 932px;
-    margin: 0;
-    background-color: #F0F4F3;
-    font-family: Arial, Helvetica, sans-serif;
+.header {
+    background-color: var(--color-white);
+    padding: var(--spacing-medium);
+    border-bottom: var(--border-width) solid var(--color-gray-light);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small);
+}
+
+.header__logo {
+    font-size: var(--font-xl);
+    font-weight: bold;
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+.page {
+    padding: var(--spacing-medium);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
+    background-color: var(--color-background);
+    min-height: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small);
+}
+
+.section__title {
+    font-size: var(--font-lg);
+    color: var(--color-black);
+    font-weight: bold;
+}
+
+.section__body {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium);
 }
