@@ -1,0 +1,63 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-medium); /* Espaçamento padrão de 20px entre as linhas */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form__group { /*rotulo + input*/
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-small); /* Espaçamento de 10px entre o título e a caixinha */
+    width: 100%;
+}
+
+.form__label { /*texto explicativo*/
+    font-size: var(--font-sm);
+    font-weight: 600;
+    color: var(--color-black);
+}
+
+.form__input {
+    width: 100%;
+    height: var(--button-height); 
+    padding: 0 var(--spacing-small);
+    border: var(--border-width) solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background-color: var(--color-white);
+    color: var(--color-black);
+    font-size: var(--font-md);
+    font-family: inherit;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form__button {
+    width: 100%; /* Faz o botão ocupar a largura total do formulário no mobile */
+    margin-top: var(--spacing-small); /* Dá um distanciamento do último input */
+}
+
+.form__input:focus {
+    border-color: var(--color-primary);
+    
+    /* Cria uma bordinha brilhosa bem suave usando a cor principal do Lucas */
+    box-shadow: 0 0 0 2px rgba(73, 196, 204, 0.2); 
+    outline: none;
+}
+
+/*modificadores*/
+.form__input--search {
+    border-radius: var(--radius-pill); /* Deixa a caixinha totalmente arredondada */
+    padding-left: var(--spacing-medium);
+}
+
+.form__input--disabled {
+    background-color: var(--color-gray-light);
+    color: var(--color-gray-muted);
+    cursor: not-allowed;
+}
+
+.form__input--error {
+    border-color: var(--color-danger);
+}
